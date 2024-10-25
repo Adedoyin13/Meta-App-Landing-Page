@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: none;
 }
 
 body {
@@ -49,7 +50,7 @@ body {
     gap: 15px;
 } */
 
-.navTitle img {
+.navTitle img, footer img {
     /* color: blue; */
     /* font-size: 50px; */
     width: 125px;
@@ -69,6 +70,9 @@ body {
     align-items: center;
     gap: 1rem;
 }
+section{
+    margin: 5rem 0;
+}
 
 .homeSection h1{
     text-align: center;
@@ -85,10 +89,10 @@ body {
     align-items: center;
 }
 
-.imageSection img {
+/* .imageSection img {
     width: 80vw;
     height: auto;
-}
+} */
 
 .commiunitySection {
     display: flex;
@@ -119,7 +123,55 @@ body {
     width: 30%;
 }
 
+.sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+    margin-bottom: 15rem;
+}
 
+.viewBtn {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sect p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.featured p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* width: 50%; */
+    margin-bottom: 5rem;
+}
+
+.featured p:nth-child(2) {
+    font-size: 80px;
+    font-weight: 400;
+} 
+
+
+
+.footer {
+    background-color: #d7e9f1
+}
 
 
 
