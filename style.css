@@ -83,16 +83,17 @@ section{
 }
 
 .imageSection {
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* .imageSection img {
+.imageSection img {
     width: 80vw;
     height: auto;
-} */
+    border-radius: 25px;
+}
 
 .commiunitySection {
     display: flex;
