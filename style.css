@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 1rem;
+    margin: 2rem 3rem 10rem 3rem;
+}
+
+.navTitles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navText p{
+    font-size: 21px;
+    font-weight: 350;
+    color: #000;
+}
+
+.navText i {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* .navTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+} */
+
+.navTitle img {
+    /* color: blue; */
+    /* font-size: 50px; */
+    width: 125px;
+    height: auto;
+}
+
+.navTextTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.navSupport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.homeSection h1{
+    text-align: center;
+    /* width: 80%; */
+    font-weight: 500;
+    font-size: 65px;
+    margin: 1rem 20rem;
+}
+
+.imageSection {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSection img {
+    width: 80vw;
+    height: auto;
+}
+
+.commiunitySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.commiunitySection h1 {
+    font-size: 48px;
+    font-weight: 550;
+    text-align: center;
+    line-height: 12px;
+}
+
+.commiunitySection p {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.communityText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
